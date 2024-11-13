@@ -267,7 +267,7 @@
       "name": "TRAN$PARENT",
       "bio": "TRAN$PARENT is a one-of-a-kind artist crafting ultra-fine, museum-quality art from rare international currencies. Each piece reveals the front, back, and hidden security features of banknotes, seamlessly blending them into powerful, thought-provoking themes.",
       "biography": "Josh Leidolf is the gallery award-winning luxury currency artist known as TRAN$PARENT...",
-      "image": "/artist_4.png",
+      "image": "/artist/artist_4.png",
       "featured": true,
       "collections": [
         {
@@ -389,13 +389,13 @@
       "name": "LEIDY MAZO",
       "bio": "Bio...",
       "featured": false,
-      "image": "/artist_6.png",
+      "image": "/artists/artist_6.png",
       "collections": []
     },
     {
       "name": "ALEJANDRO GLATT",
       "bio": "Bio...",
-      "image": "/artist_7.png",
+      "image": "/artists/artist_7.png",
       "featured": false,
       "collections": []
     },
@@ -466,14 +466,14 @@
       "name": "EDDY BOGAERT",
       "bio": "Bio...",
       "featured": false,
-      "image": "/artist_9.png",
+      "image": "/artists/artist_9.png",
       "collections": []
     },
     {
       "name": "JOHNNY DOLLAR",
       "featured": false,
       "bio": "Bio...",
-      "image": "/artist_10.png",
+      "image": "/artists/artist_10.png",
       "collections": []
     },
     {
