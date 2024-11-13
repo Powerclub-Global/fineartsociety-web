@@ -87,10 +87,30 @@ const Artist = () => {
           </div>
         </section>
       ))}
+
+      {/* Biography Section */}
+      {artist.biography && (
+        <section className="py-16 px-8 sm:px-16 bg-gray-100">
+        <div className="container mx-auto">
+          <h2 className="text-center text-3xl font-bold text-black mb-8 uppercase">
+            Biography
+          </h2>
+          <div className="text-lg text-gray-700 leading-relaxed whitespace-pre-line">
+            {artist.biography.split("\n\n").map((paragraph, index) => (
+              <p key={index} className="indent-8 mb-6">
+                {paragraph}
+              </p>
+            ))}
+          </div>
+        </div>
+      </section>
+      
+      )}
+
+      {/* Newsletter Section */}
       <Newsletter />
     </div>
   );
 };
-
 
 export default Artist;
