@@ -164,7 +164,7 @@
             {
               "title": "inessa 3",
               "description": "Description of Inessa 3",
-              "image": "/art/Inessa (3).png",
+              "image": "/art/inessa (3).png",
               "year": "2023",
               "dimensions": "30x40 in",
               "edition": "1 of 3",
@@ -174,7 +174,7 @@
             {
               "title": "inessa 4",
               "description": "Description of Inessa 4",
-              "image": "/art/Inessa (1).png",
+              "image": "/art/inessa (1).png",
               "year": "2020",
               "dimensions": "18x24 in",
               "edition": "1 of 15",
@@ -184,7 +184,7 @@
             {
               "title": "inessa 5",
               "description": "Description of Inessa 5",
-              "image": "/art/Inessa (2).png",
+              "image": "/art/inessa (2).png",
               "year": "2022",
               "dimensions": "24x36 in",
               "edition": "1 of 8",
@@ -447,16 +447,6 @@
               "edition": "1 of 15",
               "medium": "Digital Art",
               "seoTag": "cash-monet-artwork-4"
-            },
-            {
-              "title": "Cash 5",
-              "description": "Description of Cash 5",
-              "image": "/art/cash (5).png",
-              "year": "2019",
-              "dimensions": "22x28 in",
-              "edition": "1 of 5",
-              "medium": "Watercolor on Paper",
-              "seoTag": "cash-monet-artwork-5"
             }
           ]
         }
