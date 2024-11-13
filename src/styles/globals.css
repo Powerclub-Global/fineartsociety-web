@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Root Variables for Light and Dark Mode */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --highlight: #b4914b;
+  --font-cinzel: 'Cinzel', serif;
+  --font-gotham: 'Gotham', sans-serif;
+  --font-geist-mono: 'Geist Mono', monospace;
+  --font-eb-garamond: 'EB Garamond', serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* Tailwind Dark Mode */
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+body {
+  @apply bg-[var(--background)] text-[var(--foreground)];
+  font-family: var(--font-geist-mono);
+}
+
+/* Font Face Definitions */
+@font-face {
+  font-family: 'Cinzel';
+  src: url('/fonts/Cinzel.ttf') format('truetype');
+  font-weight: 400 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('/fonts/Gotham.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geist Mono';
+  src: url('/fonts/GeistMono.ttf') format('truetype');
+  font-weight: 400 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('/fonts/EBGaramond.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Typography */
+h1, h2, h3 {
+  font-family: var(--font-cinzel);
+  @apply font-bold;
+}
+
+p, li, span {
+  font-family: var(--font-eb-garamond);
+  @apply text-base leading-relaxed;
+}
+
+/* Links */
+a {
+  @apply text-[var(--foreground)] transition-colors duration-300;
+}
+
+a:hover {
+  @apply text-[var(--highlight)];
+}
+
+/* Utility Classes for Custom Colors */
+.text-yellow {
+  color: #f9e230;
+}
+
+.bg-brown {
+  background-color: #4e2e18;
+}
+
+.bg-beige {
+  background-color: #f5f5dc;
+}
+
+/* Containers */
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Buttons */
+.btn {
+  @apply bg-[var(--highlight)] text-[var(--foreground)] py-2 px-4 rounded-md font-bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  @apply bg-opacity-80;
+}

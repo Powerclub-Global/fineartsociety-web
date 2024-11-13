@@ -1,0 +1,35 @@
+{
+    "pastEvents": [
+      {
+        "title": "Spectum Art Fair",
+        "date": "December 2023",
+        "location": "Miami Art Basel",
+        "videoUrl": "/events/spectrum.mp4"
+      },
+      {
+        "title": "Versace Awards Gala",
+        "date": "January 2022",
+        "location": "Versace Mansion Miami Beach",
+        "videoUrl": "/events/versace2.mp4"
+      },
+      {
+        "title": "Versace Awards Gala",
+        "date": "January 2020",
+        "location": "Versace Mansion Miami Beach",
+        "videoUrl": "/events/versace1.mp4"
+      },
+      {
+        "title": "Lost in Eden",
+        "date": "December 2019",
+        "location": "1 Hotel South Beach",
+        "videoUrl": "/events/lostineden.mp4"
+      },
+      {
+        "title": "Penthouse Mastermind",
+        "date": "May 2019",
+        "location": "Legacy House Hollywood Hills",
+        "videoUrl": "/events/pmm.mp4"
+      }
+    ]
+  }
+  

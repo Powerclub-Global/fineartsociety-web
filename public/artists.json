@@ -1,0 +1,647 @@
+{
+  "artists": [
+    {
+      "name": "DO WHAT YOU LOVE",
+      "bio": "Do What You Love Artist...",
+      "biography": "",
+      "image": "/artists/artist_0.png",
+      "featured": true,
+      "collections": [
+        {
+          "title": "Do What You Love Collection",
+          "items": [
+            {
+              "title": "DWYL 1",
+              "description": "Description of DWYL 1",
+              "image": "/art/dwyl (1).png",
+              "year": "2022",
+              "dimensions": "24x36 in",
+              "edition": "1 of 10",
+              "medium": "Oil on Canvas",
+              "seoTag": "dwyl-1"
+            },
+            {
+              "title": "DWYL 2",
+              "description": "Description of DWYL 2",
+              "image": "/art/dwyl (2).png",
+              "year": "2021",
+              "dimensions": "18x24 in",
+              "edition": "1 of 15",
+              "medium": "Acrylic on Canvas",
+              "seoTag": "dwyl-2"
+            },
+            {
+              "title": "DWYL 3",
+              "description": "Description of DWYL 3",
+              "image": "/art/dwyl (3).png",
+              "year": "2023",
+              "dimensions": "30x40 in",
+              "edition": "1 of 5",
+              "medium": "Mixed Media",
+              "seoTag": "dwyl-3"
+            },
+            {
+              "title": "DWYL 4",
+              "description": "Description of DWYL 4",
+              "image": "/art/dwyl (4).png",
+              "year": "2022",
+              "dimensions": "20x30 in",
+              "edition": "1 of 8",
+              "medium": "Digital Art",
+              "seoTag": "dwyl-4"
+            },
+            {
+              "title": "DWYL 5",
+              "description": "Description of DWYL 5",
+              "image": "/art/dwyl (5).png",
+              "year": "2021",
+              "dimensions": "22x28 in",
+              "edition": "1 of 12",
+              "medium": "Watercolor on Paper",
+              "seoTag": "dwyl-5"
+            },
+            {
+              "title": "DWYL 6",
+              "description": "Description of DWYL 6",
+              "image": "/art/dwyl (6).png",
+              "year": "2023",
+              "dimensions": "18x24 in",
+              "edition": "1 of 7",
+              "medium": "Charcoal on Canvas",
+              "seoTag": "dwyl-6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AMER.SM",
+      "bio": "Amer.SM...",
+      "image": "/artists/artist_1.png",
+      "featured": false,
+      "collections": [
+        {
+          "title": "Amer.SM Collection",
+          "items": [
+            {
+              "title": "Amer 1",
+              "description": "Description of Amer 1",
+              "image": "/art/amer (2).png",
+              "year": "2020",
+              "dimensions": "20x30 in",
+              "edition": "1 of 8",
+              "medium": "Watercolor on Paper",
+              "seoTag": "amer-1"
+            },
+            {
+              "title": "Amer 2",
+              "description": "Description of Amer 2",
+              "image": "/art/amer (1).png",
+              "year": "2022",
+              "dimensions": "24x36 in",
+              "edition": "1 of 12",
+              "medium": "Digital Print",
+              "seoTag": "amer-2"
+            },
+            {
+              "title": "Amer 3",
+              "description": "Description of Amer 3",
+              "image": "/art/amer (3).png",
+              "year": "2023",
+              "dimensions": "18x24 in",
+              "edition": "1 of 6",
+              "medium": "Charcoal on Paper",
+              "seoTag": "amer-3"
+            },
+            {
+              "title": "Amer 4",
+              "description": "Description of Amer 4",
+              "image": "/art/amer (4).png",
+              "year": "2021",
+              "dimensions": "22x28 in",
+              "edition": "1 of 10",
+              "medium": "Acrylic on Canvas",
+              "seoTag": "amer-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "INESSA",
+      "bio": "Iness Fine Art...",
+      "image": "/artists/artist_2.png",
+      "featured": true,
+      "collections": [
+        {
+          "title": "Hand Painted Originals",
+          "items": [
+            {
+              "title": "Inessa 1",
+              "description": "Description of Inessa 1",
+              "image": "/art/inessa (4).png",
+              "year": "2021",
+              "dimensions": "22x28 in",
+              "edition": "1 of 7",
+              "medium": "Oil on Panel",
+              "seoTag": "inessa-original-1"
+            },
+            {
+              "title": "Inessa 2",
+              "description": "Description of Inessa 2",
+              "image": "/art/inessa (5).png",
+              "year": "2022",
+              "dimensions": "24x32 in",
+              "edition": "1 of 10",
+              "medium": "Ink on Paper",
+              "seoTag": "inessa-original-2"
+            }
+          ]
+        },
+        {
+          "title": "Limited Prints",
+          "items": [
+            {
+              "title": "inessa 3",
+              "description": "Description of Inessa 3",
+              "image": "/art/Inessa (3).png",
+              "year": "2023",
+              "dimensions": "30x40 in",
+              "edition": "1 of 3",
+              "medium": "Sculpture",
+              "seoTag": "inessa-limited-1"
+            },
+            {
+              "title": "inessa 4",
+              "description": "Description of Inessa 4",
+              "image": "/art/Inessa (1).png",
+              "year": "2020",
+              "dimensions": "18x24 in",
+              "edition": "1 of 15",
+              "medium": "Digital Mixed Media",
+              "seoTag": "inessa-limited-2"
+            },
+            {
+              "title": "inessa 5",
+              "description": "Description of Inessa 5",
+              "image": "/art/Inessa (2).png",
+              "year": "2022",
+              "dimensions": "24x36 in",
+              "edition": "1 of 8",
+              "medium": "Photography Print",
+              "seoTag": "inessa-limited-3"
+            },
+            {
+              "title": "Inessa 6",
+              "description": "Description of Inessa 6",
+              "image": "/art/inessa (6).png",
+              "year": "2023",
+              "dimensions": "20x30 in",
+              "edition": "1 of 5",
+              "medium": "Mixed Media",
+              "seoTag": "inessa-limited-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KYLE SCHINDLER",
+      "bio": "Kyle Schindler...",
+      "image": "/artists/artist_3.png",
+      "featured": true,
+      "collections": [
+        {
+          "title": "Hand Painted Originals",
+          "items": [
+            {
+              "title": "Schindler 1",
+              "description": "Description of Schindler",
+              "image": "/art/schindler (1).png",
+              "year": "2023",
+              "dimensions": "30x40 in",
+              "edition": "1 of 3",
+              "medium": "Wall Art",
+              "seoTag": "schindler-limited-1"
+            },
+            {
+              "title": "Schindler 3",
+              "description": "Description of Schindler",
+              "image": "/art/schindler (3).png",
+              "year": "2023",
+              "dimensions": "30x40 in",
+              "edition": "1 of 3",
+              "medium": "Wall Art",
+              "seoTag": "schindler-limited-1"
+            },
+            {
+              "title": "Schindler 4",
+              "description": "Description of Schindler",
+              "image": "/art/schindler (4).png",
+              "year": "2023",
+              "dimensions": "30x40 in",
+              "edition": "1 of 3",
+              "medium": "Wall Art",
+              "seoTag": "schindler-limited-1"
+            }
+          ]
+        },
+        {
+          "title": "Wall Art",
+          "items": [
+            {
+              "title": "Schindler 2",
+              "description": "Description of Schindler",
+              "image": "/art/schindler (2).png",
+              "year": "2023",
+              "dimensions": "30x40 in",
+              "edition": "1 of 3",
+              "medium": "Wall Art",
+              "seoTag": "schindler-limited-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TRAN$PARENT",
+      "bio": "TRAN$PARENT is a one-of-a-kind artist crafting ultra-fine, museum-quality art from rare international currencies. Each piece reveals the front, back, and hidden security features of banknotes, seamlessly blending them into powerful, thought-provoking themes.",
+      "biography": "Josh Leidolf is the gallery award-winning luxury currency artist known as TRAN$PARENT...",
+      "image": "/artist_4.png",
+      "featured": true,
+      "collections": [
+        {
+          "title": "Currency Collection",
+          "items": [
+            {
+              "title": "Currency Art 1",
+              "description": "A stunning artwork capturing the intricate details of international currency.",
+              "image": "/art/transparent (1).png",
+              "year": "2023",
+              "dimensions": "24x36 in",
+              "edition": "1 of 10",
+              "medium": "Digital Mixed Media",
+              "seoTag": "transparent-currency-art-1"
+            },
+            {
+              "title": "Currency Art 2",
+              "description": "A bold representation of value and transparency in modern finance.",
+              "image": "/art/transparent (5).png",
+              "year": "2022",
+              "dimensions": "30x40 in",
+              "edition": "1 of 5",
+              "medium": "Digital Mixed Media",
+              "seoTag": "transparent-currency-art-2"
+            },
+            {
+              "title": "Currency Art 3",
+              "description": "An artistic exploration of hidden security features in banknotes.",
+              "image": "/art/transparent (6).png",
+              "year": "2021",
+              "dimensions": "20x30 in",
+              "edition": "1 of 15",
+              "medium": "Digital Mixed Media",
+              "seoTag": "transparent-currency-art-3"
+            }
+          ]
+        },
+        {
+          "title": "Crypto Collection",
+          "items": [
+            {
+              "title": "Bitcoin Art",
+              "description": "A visionary piece celebrating the rise of Bitcoin as the digital gold standard.",
+              "image": "/art/transparent (4).png",
+              "year": "2023",
+              "dimensions": "24x24 in",
+              "edition": "1 of 20",
+              "medium": "Digital Mixed Media",
+              "seoTag": "transparent-bitcoin-art"
+            },
+            {
+              "title": "Ethereum Art",
+              "description": "A tribute to the decentralized platform that revolutionized smart contracts.",
+              "image": "/art/transparent (3).png",
+              "year": "2022",
+              "dimensions": "24x36 in",
+              "edition": "1 of 8",
+              "medium": "Digital Mixed Media",
+              "seoTag": "transparent-ethereum-art"
+            },
+            {
+              "title": "Dogecoin Art",
+              "description": "An artistic nod to the meme cryptocurrency that captured global attention.",
+              "image": "/art/transparent (2).png",
+              "year": "2021",
+              "dimensions": "18x24 in",
+              "edition": "1 of 12",
+              "medium": "Digital Mixed Media",
+              "seoTag": "transparent-dogecoin-art"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JOSEPH SKALA",
+      "bio": "Joseph Skala is a contemporary artist known for his vibrant and dynamic works that explore themes of identity, culture, and emotion.",
+      "image": "/artists/artist_5.png",
+      "featured": true,
+      "collections": [
+        {
+          "title": "Skala Collection",
+          "items": [
+            {
+              "title": "Skala 1",
+              "description": "Description of Skala 1",
+              "image": "/art/skala (1).png",
+              "year": "2021",
+              "dimensions": "24x36 in",
+              "edition": "1 of 10",
+              "medium": "Oil on Canvas",
+              "seoTag": "joseph-skala-artwork-1"
+            },
+            {
+              "title": "Skala 2",
+              "description": "Description of Skala 2",
+              "image": "/art/skala (2).png",
+              "year": "2022",
+              "dimensions": "18x24 in",
+              "edition": "1 of 12",
+              "medium": "Acrylic on Canvas",
+              "seoTag": "joseph-skala-artwork-2"
+            },
+            {
+              "title": "Skala 3",
+              "description": "Description of Skala 3",
+              "image": "/art/skala (3).png",
+              "year": "2023",
+              "dimensions": "30x40 in",
+              "edition": "1 of 5",
+              "medium": "Mixed Media",
+              "seoTag": "joseph-skala-artwork-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LEIDY MAZO",
+      "bio": "Bio...",
+      "featured": false,
+      "image": "/artist_6.png",
+      "collections": []
+    },
+    {
+      "name": "ALEJANDRO GLATT",
+      "bio": "Bio...",
+      "image": "/artist_7.png",
+      "featured": false,
+      "collections": []
+    },
+    {
+      "name": "CA$H MONET",
+      "bio": "CA$H MONET is a provocative artist whose work explores the intersections of wealth, culture, and art through bold, satirical imagery.",
+      "image": "/artists/artist_8.png",
+      "featured": false,
+      "collections": [
+        {
+          "title": "Cash Monet Collection",
+          "items": [
+            {
+              "title": "Cash 1",
+              "description": "Description of Cash 1",
+              "image": "/art/cash (1).png",
+              "year": "2021",
+              "dimensions": "24x36 in",
+              "edition": "1 of 10",
+              "medium": "Oil on Canvas",
+              "seoTag": "cash-monet-artwork-1"
+            },
+            {
+              "title": "Cash 2",
+              "description": "Description of Cash 2",
+              "image": "/art/cash (2).png",
+              "year": "2022",
+              "dimensions": "18x24 in",
+              "edition": "1 of 12",
+              "medium": "Acrylic on Canvas",
+              "seoTag": "cash-monet-artwork-2"
+            },
+            {
+              "title": "Cash 3",
+              "description": "Description of Cash 3",
+              "image": "/art/cash (3).png",
+              "year": "2023",
+              "dimensions": "30x40 in",
+              "edition": "1 of 8",
+              "medium": "Mixed Media",
+              "seoTag": "cash-monet-artwork-3"
+            },
+            {
+              "title": "Cash 4",
+              "description": "Description of Cash 4",
+              "image": "/art/cash (4).png",
+              "year": "2020",
+              "dimensions": "20x30 in",
+              "edition": "1 of 15",
+              "medium": "Digital Art",
+              "seoTag": "cash-monet-artwork-4"
+            },
+            {
+              "title": "Cash 5",
+              "description": "Description of Cash 5",
+              "image": "/art/cash (5).png",
+              "year": "2019",
+              "dimensions": "22x28 in",
+              "edition": "1 of 5",
+              "medium": "Watercolor on Paper",
+              "seoTag": "cash-monet-artwork-5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EDDY BOGAERT",
+      "bio": "Bio...",
+      "featured": false,
+      "image": "/artist_9.png",
+      "collections": []
+    },
+    {
+      "name": "JOHNNY DOLLAR",
+      "featured": false,
+      "bio": "Bio...",
+      "image": "/artist_10.png",
+      "collections": []
+    },
+    {
+      "name": "SAM P.",
+      "bio": "Sam P. is a versatile artist known for his striking custom portraits and intricate hand-painted originals, blending traditional techniques with contemporary themes.",
+      "image": "/artists/artist_11.png",
+      "featured": false,
+      "collections": [
+        {
+          "title": "Custom Portraits",
+          "items": [
+            {
+              "title": "Custom Portrait 1",
+              "description": "A unique and personalized custom portrait by Sam P.",
+              "image": "/art/sam (4).png",
+              "year": "2023",
+              "dimensions": "24x36 in",
+              "edition": "1 of 1",
+              "medium": "Oil on Canvas",
+              "seoTag": "sam-p-custom-portrait-1"
+            }
+          ]
+        },
+        {
+          "title": "Hand Painted Originals",
+          "items": [
+            {
+              "title": "Original 1",
+              "description": "A stunning hand-painted original by Sam P.",
+              "image": "/art/sam (1).png",
+              "year": "2021",
+              "dimensions": "18x24 in",
+              "edition": "1 of 5",
+              "medium": "Acrylic on Canvas",
+              "seoTag": "sam-p-original-1"
+            },
+            {
+              "title": "Original 2",
+              "description": "An expressive hand-painted original by Sam P.",
+              "image": "/art/sam (2).png",
+              "year": "2022",
+              "dimensions": "20x30 in",
+              "edition": "1 of 8",
+              "medium": "Watercolor on Paper",
+              "seoTag": "sam-p-original-2"
+            },
+            {
+              "title": "Original 3",
+              "description": "A bold and colorful hand-painted original by Sam P.",
+              "image": "/art/sam (3).png",
+              "year": "2020",
+              "dimensions": "22x28 in",
+              "edition": "1 of 10",
+              "medium": "Mixed Media",
+              "seoTag": "sam-p-original-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marcel Van Luit",
+      "bio": "Marcel Van Luit creates breathtaking artworks blending surrealism and reality.",
+      "image": "/artists/artist_12.png",
+      "featured": false,
+      "collections": [
+        {
+          "title": "Van Luit Collection",
+          "items": [
+            {
+              "title": "Luit 1",
+              "description": "A mesmerizing piece by Marcel Van Luit.",
+              "image": "/art/luit (1).png",
+              "year": "2022",
+              "dimensions": "32x40 in",
+              "edition": "1 of 20",
+              "medium": "Photographic Art",
+              "seoTag": "van-luit-artwork-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Michael Binesty",
+      "bio": "Michael Binesty's sculptures redefine modern art through form and function.",
+      "image": "/artists/artist_13.png",
+      "featured": false,
+      "collections": [
+        {
+          "title": "Sculptures",
+          "items": [
+            {
+              "title": "Michael 1",
+              "description": "An iconic sculpture by Michael Binesty.",
+              "image": "/art/michael (1).png",
+              "year": "2020",
+              "dimensions": "36x48 in",
+              "edition": "1 of 10",
+              "medium": "Bronze",
+              "seoTag": "binesty-sculpture-1"
+            },
+            {
+              "title": "Michael 2",
+              "description": "A remarkable piece showcasing Binesty's craftsmanship.",
+              "image": "/art/michael (2).png",
+              "year": "2021",
+              "dimensions": "40x50 in",
+              "edition": "1 of 8",
+              "medium": "Marble",
+              "seoTag": "binesty-sculpture-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drakhan",
+      "bio": "Drakhan's art explores the darker realms of human emotion through intense visuals.",
+      "image": "/artists/artist_14.png",
+      "featured": true,
+      "collections": [
+        {
+          "title": "Drakhan Collection",
+          "items": [
+            {
+              "title": "Drakhan 1",
+              "description": "A striking piece reflecting Drakhan's vision.",
+              "image": "/art/drakhan (1).png",
+              "year": "2019",
+              "dimensions": "28x36 in",
+              "edition": "1 of 10",
+              "medium": "Acrylic on Canvas",
+              "seoTag": "drakhan-artwork-1"
+            },
+            {
+              "title": "Drakhan 2",
+              "description": "An evocative artwork from Drakhan's collection.",
+              "image": "/art/drakhan (2).png",
+              "year": "2020",
+              "dimensions": "30x40 in",
+              "edition": "1 of 12",
+              "medium": "Mixed Media",
+              "seoTag": "drakhan-artwork-2"
+            },
+            {
+              "title": "Drakhan 3",
+              "description": "A bold statement in Drakhan's signature style.",
+              "image": "/art/drakhan (3).png",
+              "year": "2021",
+              "dimensions": "26x34 in",
+              "edition": "1 of 15",
+              "medium": "Digital Art",
+              "seoTag": "drakhan-artwork-3"
+            },
+            {
+              "title": "Drakhan 4",
+              "description": "A haunting depiction of Drakhan's themes.",
+              "image": "/art/drakhan (4).png",
+              "year": "2022",
+              "dimensions": "36x48 in",
+              "edition": "1 of 5",
+              "medium": "Oil on Canvas",
+              "seoTag": "drakhan-artwork-4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
