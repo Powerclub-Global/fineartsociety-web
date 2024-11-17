@@ -75,7 +75,7 @@ const NavBar = () => {
 
           {/* Centered Menu Items */}
           <div className="flex-grow flex flex-col items-center justify-center space-y-12">
-            <ul className="text-center space-y-8 text-5xl font-bold uppercase tracking-wide">
+            <ul className="text-center space-y-8 text-6xl font-bold uppercase tracking-wide">
               <li>
                 <Link href="/about" onClick={closeMenu}>About</Link>
               </li>

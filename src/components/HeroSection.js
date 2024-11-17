@@ -35,7 +35,7 @@ const HeroSection = () => {
       {/* Call to Action */}
       <div className="absolute bottom-40 w-full flex justify-center">
         <a
-          href="https://calendly.com/powerclubseo/30min" // Calendly URL
+          href="https://www.spatial.io/s/FINE-ART-SOCIETY-673968c70934a7f92fede60b" // Calendly URL
           target="_blank"
           rel="noopener noreferrer"
           className="bg-black text-gold font-bold border border-gold rounded-md px-8 py-4 hover:bg-opacity-80"
