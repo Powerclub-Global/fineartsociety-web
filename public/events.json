@@ -7,10 +7,22 @@
         "videoUrl": "/events/spectrum.mp4"
       },
       {
+        "title": "Market Hackers Penthouse",
+        "date": "Oct 2022",
+        "location": "Brickell Penthouse",
+        "videoUrl": "https://youtu.be/B4XyFUejSmo"
+      },
+      {
         "title": "Versace Awards Gala",
         "date": "January 2022",
         "location": "Versace Mansion Miami Beach",
         "videoUrl": "/events/versace2.mp4"
+      },
+      {
+        "title": "Penthawse",
+        "date": "Feb 2020",
+        "location": "The Cruze Building Coral Gables",
+        "videoUrl": "https://youtu.be/R5-Hjj8vWoc"
       },
       {
         "title": "Versace Awards Gala",
