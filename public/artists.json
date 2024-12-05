@@ -135,6 +135,51 @@
       "featured": true,
       "collections": [
         {
+          "title": "Basel Collection",
+          "items": [
+            {
+              "title": "Monkey Money",
+              "description": "",
+              "image": "/art/inessa 9.png",
+              "year": "",
+              "dimensions": "",
+              "medium": "Mixed Media : Hand Painted Acrylic on Canvas with Gold Flake",
+              "edition": "1/1 Original",
+              "seoTag": "basel-monkey-money"
+            },
+            {
+              "title": "Buy Bitcoin",
+              "description": "",
+              "image": "/art/inessa 7.png",
+              "year": "",
+              "dimensions": "36x36 in",
+              "medium": "Mixed Media : Acrylic and Gold Flake on Canvas with Resin and Diamond Dust",
+              "edition": "1/1 Original",
+              "seoTag": "basel-buy-bitcoin"
+            },
+            {
+              "title": "BAYC Commission",
+              "description": "",
+              "image": "/art/inessa 8.png",
+              "year": "",
+              "dimensions": "36x36 in",
+              "medium": "Mixed Media : Acrylic and Silver Flake on Canvas with Resin and Diamond Dust",
+              "edition": "1/1 Original",
+              "seoTag": "basel-bayc-commission"
+            },
+            {
+              "title": "Painted Compainons",
+              "description": "",
+              "image": "/art/inessa 12.png",
+              "year": "",
+              "dimensions": "",
+              "medium": "1/1 Original",
+              "edition": "",
+              "seoTag": "basel-kaws-1"
+            }
+          ]
+        },       
+        {
           "title": "Hand Painted Originals",
           "items": [
             {
@@ -214,40 +259,71 @@
       "featured": true,
       "collections": [
         {
-          "title": "Hand Painted Originals",
+          "title": "Basel Collection",
           "items": [
             {
-              "title": "Schindler 1",
-              "description": "Description of Schindler",
-              "image": "/art/schindler (1).png",
-              "year": "2023",
-              "dimensions": "30x40 in",
-              "edition": "1 of 3",
-              "medium": "Wall Art",
-              "seoTag": "schindler-limited-1"
+              "title": "Big Drip",
+              "description": "",
+              "image": "/art/kyle 2.png",
+              "year": "",
+              "dimensions": "130cm + Base",
+              "medium": "Replica KAWS, Acrylic, Resin",
+              "edition": "1/1 Original",
+              "seoTag": "basel-big-drip"
             },
             {
-              "title": "Schindler 3",
-              "description": "Description of Schindler",
-              "image": "/art/schindler (3).png",
-              "year": "2023",
-              "dimensions": "30x40 in",
-              "edition": "1 of 3",
-              "medium": "Wall Art",
-              "seoTag": "schindler-limited-1"
+              "title": "Space Cadet",
+              "description": "",
+              "image": "/art/kyle 1.png",
+              "year": "",
+              "dimensions": "120cm + Base",
+              "medium": "Replica KAWS, Acrylic, Resin",
+              "edition": "1/1 Original",
+              "seoTag": "basel-space-cadet"
             },
             {
-              "title": "Schindler 4",
-              "description": "Description of Schindler",
-              "image": "/art/schindler (4).png",
-              "year": "2023",
-              "dimensions": "30x40 in",
-              "edition": "1 of 3",
-              "medium": "Wall Art",
-              "seoTag": "schindler-limited-1"
+              "title": "BTC Paint Can",
+              "description": "",
+              "image": "/art/basel-btc-paint-can.png",
+              "year": "",
+              "dimensions": "",
+              "medium": "Original",
+              "edition": "",
+              "seoTag": "/art/kyle 6"
+            },
+            {
+              "title": "BTC Bully Bank",
+              "description": "",
+              "image": "/art/kyle 5.png",
+              "year": "",
+              "dimensions": "",
+              "medium": "Original",
+              "edition": "",
+              "seoTag": "basel-btc-bully-bank"
+            },
+            {
+              "title": "BTC Piggy Bank",
+              "description": "",
+              "image": "/art/kyle 4.png",
+              "year": "",
+              "dimensions": "",
+              "medium": "Original",
+              "edition": "",
+              "seoTag": "basel-btc-piggy-bank"
+            },
+            {
+              "title": "BTC Skull",
+              "description": "",
+              "image": "/art/kyle 3.png",
+              "year": "",
+              "dimensions": "",
+              "medium": "Original",
+              "edition": "",
+              "seoTag": "basel-btc-skull"
             }
           ]
-        },
+        }
+        ,
         {
           "title": "Wall Art",
           "items": [
@@ -272,6 +348,41 @@
       "image": "/artists/artist_4.png",
       "featured": true,
       "collections": [
+        {
+          "title": "Basel Collection",
+          "items": [
+            {
+              "title": "Eat Your Bitcoin",
+              "description": "",
+              "image": "/art/transparent.png",
+              "year": "",
+              "dimensions": "48x48 in",
+              "medium": "Acrylic on Diasec with Frame",
+              "edition": "1/1 Original",
+              "seoTag": "transparent 3.png"
+            },
+            {
+              "title": "Diving into the Future",
+              "description": "",
+              "image": "/art/basel-diving-into-the-future.png",
+              "year": "",
+              "dimensions": "36x36 in",
+              "medium": "Archival Metallic with Resin",
+              "edition": "1/5 Publishers Proof",
+              "seoTag": "/art/transparent 3.png"
+            },
+            {
+              "title": "Game of Coins",
+              "description": "",
+              "image": "/art/transparent 2.png",
+              "year": "",
+              "dimensions": "48x48 in",
+              "medium": "Acrylic on Diasec with Frame",
+              "edition": "1/1 Original",
+              "seoTag": "basel-game-of-coins"
+            }
+          ]
+        },        
         {
           "title": "Currency Collection",
           "items": [
@@ -311,34 +422,24 @@
           "title": "Crypto Collection",
           "items": [
             {
-              "title": "Bitcoin Art",
-              "description": "A visionary piece celebrating the rise of Bitcoin as the digital gold standard.",
+              "title": "Bitcoin Marble",
+              "description": "",
               "image": "/art/transparent (4).png",
               "year": "2023",
               "dimensions": "24x24 in",
-              "edition": "1 of 20",
-              "medium": "Digital Mixed Media",
+              "edition": "1/1",
+              "medium": "Hand Painted Acrylic on Canvas with Resin",
               "seoTag": "transparent-bitcoin-art"
             },
             {
-              "title": "Ethereum Art",
-              "description": "A tribute to the decentralized platform that revolutionized smart contracts.",
+              "title": "Bitcoin Pop",
+              "description": "",
               "image": "/art/transparent (3).png",
               "year": "2022",
               "dimensions": "24x36 in",
-              "edition": "1 of 8",
+              "edition": "1/1",
               "medium": "Digital Mixed Media",
               "seoTag": "transparent-ethereum-art"
-            },
-            {
-              "title": "Dogecoin Art",
-              "description": "An artistic nod to the meme cryptocurrency that captured global attention.",
-              "image": "/art/transparent (2).png",
-              "year": "2021",
-              "dimensions": "18x24 in",
-              "edition": "1 of 12",
-              "medium": "Digital Mixed Media",
-              "seoTag": "transparent-dogecoin-art"
             }
           ]
         }
@@ -394,7 +495,53 @@
       "biography": "Leidy Mazo is a multidisciplinary artist, model, and actress, best known for her role in the blockbuster film *Transformers: Dark of the Moon*. Born in Colombia, she moved to the United States at the age of 15, earning a scholarship to an art institution. Afterward, she relocated to Los Angeles to pursue acting, but her true passion has always been art. Now based in Miami, Leidy dedicates her time to painting, creating emotionally charged works that resonate with clients worldwide, including celebrities and galleries. Leidy’s artistic journey began with a profound inspiration from her religious studies, which led to her first series featuring Jewish stars. This deeply personal work marked the start of her career and her exploration of art as a means of self-expression. Over time, she developed distinct collections, such as her playful *Teddy Bear* series, incorporating luxury brand motifs, and her poignant *Soldiers Hearts Fight for Love* collection, which advocates for peace and love amid global conflict. Known for her versatility, Leidy’s style evolves with her emotions, blending traditional techniques with innovative 3D elements that bring her visions to life. She thrives on collaboration and experimentation, producing artwork that is as dynamic and multifaceted as her career. With a unique ability to translate her experiences and feelings onto canvas, Leidy continues to captivate audiences and collectors around the world.",
       "featured": false,
       "image": "/artists/artist_6.png",
-      "collections": []
+      "collections": [
+        {
+          "title": "Basel Collection",
+          "items": [
+            {
+              "title": "Mumy",
+              "description": "",
+              "image": "/art/leidy 1.png",
+              "year": "",
+              "dimensions": "",
+              "medium": "Mixed Media : Paper Mache Cast, Acrylic, Spray Paint, & Rhinestones in an Acrylic Case",
+              "edition": "1/1 Original",
+              "seoTag": "basel-mumy"
+            },
+            {
+              "title": "World Peace",
+              "description": "",
+              "image": "/art/leidy 4.png",
+              "year": "",
+              "dimensions": "",
+              "medium": "Mixed Media : Toy Soldiers, Spray Paint, Resin",
+              "edition": "",
+              "seoTag": "basel-world-peace"
+            },
+            {
+              "title": "World Peace",
+              "description": "",
+              "image": "/art/leidy 3.png",
+              "year": "",
+              "dimensions": "",
+              "medium": "Mixed Media : Toy Soldiers, Spray Paint, Resin",
+              "edition": "",
+              "seoTag": "basel-world-peace"
+            },
+            {
+              "title": "Pharo",
+              "description": "",
+              "image": "/art/leidy 2.png",
+              "year": "",
+              "dimensions": "",
+              "medium": "",
+              "edition": "1/1 Original",
+              "seoTag": "basel-pharo"
+            }
+          ]
+        }        
+      ]
     },
     {
       "name": "ALEJANDRO GLATT",
@@ -466,9 +613,45 @@
     {
       "name": "JOHNNY DOLLAR",
       "featured": false,
-      "bio": "Bio...",
+      "bio": "Johnny Dollar is obviously not my real name, but pseudonym, a handle. I  sign my paintings with my real name then cover my name with masking tape and sign it Johnny Dollar. The masking tape is a form of “encryption.” The “masking tape encryption” can always be removed to reveal my real identity, and is a metaphor for the false sense of privacy that we have in this brave new digital world.",
       "image": "/artists/artist_10.png",
-      "collections": []
+      "collections": [
+        {
+          "title": "Basel Collection",
+          "items": [
+            {
+              "title": "Peace Maker",
+              "description": "The happy Bitcoin Bear presents a flower of peace, with the Colt 45 revolver in the background. This gun was revolutionary technology, a game changer invention of the 19th century, often called “the great equalizer” or “the peace maker.”              ",
+              "image": "/art/johnny 1.png",
+              "year": "",
+              "dimensions": "",
+              "medium": "Mixed Media : Acrylic and Stencils on Canvas",
+              "edition": "1/1 Original",
+              "seoTag": "basel-peace-maker"
+            },
+            {
+              "title": "Donald goes to the Dark Web",
+              "description": "Enraged  with jealousy at seeing his girl with another, Donald goes down to the dark web. Where using a private crypto currency, he buys augmentation weaponry and bio hacks himselt to get revenge and heal his broken heart",
+              "image": "/art/johnny 2.png",
+              "year": "",
+              "dimensions": "",
+              "medium": "Hand Painted Acrylic on Canvas",
+              "edition": "1/1 Original",
+              "seoTag": "basel-donald-dark-web"
+            },
+            {
+              "title": "How High the Moon",
+              "description": "Climbing up the Mega Bull, we encounter different characters as the price of Bitcoin goes higher.  Until we finally reach the mythical moon",
+              "image": "/art/johnny 3.png",
+              "year": "2024",
+              "dimensions": "",
+              "medium": "Hand Painted Acrylic on Canvas",
+              "edition": "1/1 Original",
+              "seoTag": "basel-how-high-the-moon"
+            }
+          ]
+        }        
+      ]
     },
     {
       "name": "SAM P.",
@@ -584,6 +767,39 @@
         }
       ]
     },
+    {
+      "name": "Forever Lavi",
+      "bio": "Forever Lavi is a visionary artist whose work captures the timeless essence of creativity through a contemporary lens, blending bold forms with refined aesthetics.",
+      "image": "/artists/artist_15.png",
+      "featured": false,
+      "collections": [
+        {
+          "title": "Basel Collection",
+          "items": [
+            {
+              "title": "Lavi 1",
+              "description": "A bold exploration of form and color, showcasing the artist's signature style.",
+              "image": "/art/lavi 1.png",
+              "year": "",
+              "dimensions": "",
+              "medium": "",
+              "edition": "AP 1",
+              "seoTag": "basel-lavi-1"
+            },
+            {
+              "title": "Lavi 2",
+              "description": "A refined piece combining timeless aesthetics with modern design elements.",
+              "image": "/art/lavi 2.png",
+              "year": "",
+              "dimensions": "",
+              "medium": "",
+              "edition": "AP 1",
+              "seoTag": "basel-lavi-2"
+            }
+          ]
+        }
+      ]
+    },    
     {
       "name": "Drakhan",
       "bio": "Drakhan's art explores the darker realms of human emotion through intense visuals.",
