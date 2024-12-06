@@ -604,13 +604,6 @@
       ]
     },
     {
-      "name": "EDDY BOGAERT",
-      "bio": "Bio...",
-      "featured": false,
-      "image": "/artists/artist_9.png",
-      "collections": []
-    },
-    {
       "name": "JOHNNY DOLLAR",
       "featured": true,
       "bio": "Johnny Dollar is obviously not my real name, but pseudonym, a handle. I  sign my paintings with my real name then cover my name with masking tape and sign it Johnny Dollar. The masking tape is a form of “encryption.” The “masking tape encryption” can always be removed to reveal my real identity, and is a metaphor for the false sense of privacy that we have in this brave new digital world.",
@@ -621,8 +614,8 @@
           "items": [
             {
               "title": "Peace Maker",
-              "description": "The happy Bitcoin Bear presents a flower of peace, with the Colt 45 revolver in the background. This gun was revolutionary technology, a game changer invention of the 19th century, often called “the great equalizer” or “the peace maker.”              ",
-              "image": "/art/johnny (1).png",
+              "description": "The happy Bitcoin Bear presents a flower of peace, with the Colt 45 revolver in the background. This gun was revolutionary technology, a game changer invention of the 19th century, often called “the great equalizer” or “the peace maker.”",
+              "image": "/art/johnny (1).jpg",
               "year": "",
               "dimensions": "",
               "medium": "Mixed Media : Acrylic and Stencils on Canvas",
@@ -632,7 +625,7 @@
             {
               "title": "Donald goes to the Dark Web",
               "description": "Enraged  with jealousy at seeing his girl with another, Donald goes down to the dark web. Where using a private crypto currency, he buys augmentation weaponry and bio hacks himselt to get revenge and heal his broken heart",
-              "image": "/art/johnny (2).png",
+              "image": "/art/johnny (2).jpg",
               "year": "",
               "dimensions": "",
               "medium": "Hand Painted Acrylic on Canvas",
@@ -770,7 +763,7 @@
     {
       "name": "Forever Lavi",
       "bio": "Forever Lavi is a visionary artist whose work captures the timeless essence of creativity through a contemporary lens, blending bold forms with refined aesthetics.",
-      "image": "/artists/artist_15.png",
+      "image": "/artists/lavi.png",
       "featured": false,
       "collections": [
         {
@@ -779,7 +772,7 @@
             {
               "title": "Lavi 1",
               "description": "A bold exploration of form and color, showcasing the artist's signature style.",
-              "image": "/art/lavi 1.png",
+              "image": "/art/lavi (1).png",
               "year": "",
               "dimensions": "",
               "medium": "",
@@ -789,7 +782,7 @@
             {
               "title": "Lavi 2",
               "description": "A refined piece combining timeless aesthetics with modern design elements.",
-              "image": "/art/lavi 2.png",
+              "image": "/art/lavi (2).png",
               "year": "",
               "dimensions": "",
               "medium": "",
