@@ -284,7 +284,7 @@
             {
               "title": "BTC Paint Can",
               "description": "",
-              "image": "/art/basel-btc-paint-can.png",
+              "image": "/art/kyle 6.png",
               "year": "",
               "dimensions": "",
               "medium": "Original",
@@ -612,7 +612,7 @@
     },
     {
       "name": "JOHNNY DOLLAR",
-      "featured": false,
+      "featured": true,
       "bio": "Johnny Dollar is obviously not my real name, but pseudonym, a handle. I  sign my paintings with my real name then cover my name with masking tape and sign it Johnny Dollar. The masking tape is a form of “encryption.” The “masking tape encryption” can always be removed to reveal my real identity, and is a metaphor for the false sense of privacy that we have in this brave new digital world.",
       "image": "/artists/artist_10.png",
       "collections": [
@@ -622,7 +622,7 @@
             {
               "title": "Peace Maker",
               "description": "The happy Bitcoin Bear presents a flower of peace, with the Colt 45 revolver in the background. This gun was revolutionary technology, a game changer invention of the 19th century, often called “the great equalizer” or “the peace maker.”              ",
-              "image": "/art/johnny 1.png",
+              "image": "/art/johnny (1).png",
               "year": "",
               "dimensions": "",
               "medium": "Mixed Media : Acrylic and Stencils on Canvas",
@@ -632,7 +632,7 @@
             {
               "title": "Donald goes to the Dark Web",
               "description": "Enraged  with jealousy at seeing his girl with another, Donald goes down to the dark web. Where using a private crypto currency, he buys augmentation weaponry and bio hacks himselt to get revenge and heal his broken heart",
-              "image": "/art/johnny 2.png",
+              "image": "/art/johnny (2).png",
               "year": "",
               "dimensions": "",
               "medium": "Hand Painted Acrylic on Canvas",
@@ -642,7 +642,7 @@
             {
               "title": "How High the Moon",
               "description": "Climbing up the Mega Bull, we encounter different characters as the price of Bitcoin goes higher.  Until we finally reach the mythical moon",
-              "image": "/art/johnny 3.png",
+              "image": "/art/johnny (3).png",
               "year": "2024",
               "dimensions": "",
               "medium": "Hand Painted Acrylic on Canvas",
@@ -804,7 +804,7 @@
       "name": "Drakhan",
       "bio": "Drakhan's art explores the darker realms of human emotion through intense visuals.",
       "image": "/artists/artist_14.png",
-      "featured": true,
+      "featured": false,
       "collections": [
         {
           "title": "Drakhan Collection",
