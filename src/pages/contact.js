@@ -4,16 +4,18 @@ import Image from "next/image";
 import Newsletter from "../components/Newsletter"; // Reuse the NewsletterForm
 import { useSearchParams } from "next/navigation"; // Use Next.js hook for query params
 import { useState } from "react"; // To manage form state and handling submission
-import { Client, Databases, ID } from "appwrite";
 
-const client = new Client()
-    .setEndpoint('https://cloud.appwrite.io/v1') // Your API Endpoint
-    .setProject('669cf82100212276b67e');
+// Validation functions
+const validateEmail = (email) => {
+  const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)+$/;
+  return emailRegex.test(email);
+};
 
-const databases = new Databases(client);
-
-const collectionId = '6751716a0028ce69d559'; // Your collection ID
-const databaseId = 'pcg_database'; // Replace with your actual database ID
+const validatePhone = (phone) => {
+  // Accepts formats: +1234567890, 123-456-7890, (123) 456-7890, 1234567890
+  const phoneRegex = /^[\+]?[(]?[0-9]{1,3}[)]?[-\s\.]?[0-9]{1,4}[-\s\.]?[0-9]{1,4}[-\s\.]?[0-9]{1,9}$/;
+  return phoneRegex.test(phone.replace(/\s/g, ''));
+};
 
 const ContactPage = () => {
   const searchParams = useSearchParams();
@@ -30,24 +32,72 @@ const ContactPage = () => {
     message: ""
   });
 
+  // State for validation errors
+  const [errors, setErrors] = useState({});
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
+    // Clear error when user starts typing
+    if (errors[name]) {
+      setErrors((prev) => ({ ...prev, [name]: "" }));
+    }
+  };
+
+  const validateForm = () => {
+    const newErrors = {};
+
+    if (!formData.name.trim()) {
+      newErrors.name = "Name is required";
+    }
+
+    if (!formData.phone.trim()) {
+      newErrors.phone = "Phone number is required";
+    } else if (!validatePhone(formData.phone)) {
+      newErrors.phone = "Please enter a valid phone number";
+    }
+
+    if (!formData.email.trim()) {
+      newErrors.email = "Email is required";
+    } else if (!validateEmail(formData.email)) {
+      newErrors.email = "Please enter a valid email address";
+    }
+
+    if (!formData.subject.trim()) {
+      newErrors.subject = "Subject is required";
+    }
+
+    if (!formData.message.trim()) {
+      newErrors.message = "Message is required";
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("IN here");
+
+    if (!validateForm()) {
+      return;
+    }
+
     try {
-      const response = await databases.createDocument(
-        databaseId,
-        collectionId,
-        ID.unique(), // Automatically generate a unique ID for the document
-        formData
-      );
-      console.log('Form submitted successfully:', response);
-      alert("Your message has been sent!");
-      setFormData({ name: "", phone: "", email: "", subject: subject, message: "" }); // Reset form
+      // Send SMS notification via SignalWire
+      const smsResponse = await fetch("/api/send-sms", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      const smsResult = await smsResponse.json();
+      if (smsResult.success) {
+        console.log("SMS sent:", smsResult.sid);
+        alert("Your message has been sent!");
+        setFormData({ name: "", phone: "", email: "", subject: subject, message: "" });
+      } else {
+        console.error("SMS failed:", smsResult.error);
+        alert("An error occurred while sending your message. Please try again.");
+      }
     } catch (error) {
       console.error('Error submitting form:', error);
       alert("An error occurred while sending your message. Please try again.");
@@ -121,7 +171,7 @@ const ContactPage = () => {
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
                 <label className="block text-lg text-black" htmlFor="name">
-                  Name
+                  Name <span className="text-red-500">*</span>
                 </label>
                 <input
                   type="text"
@@ -129,27 +179,28 @@ const ContactPage = () => {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full p-3 border border-gray-300 rounded-md text-black"
-                  required
+                  className={`w-full p-3 border rounded-md text-black ${errors.name ? 'border-red-500' : 'border-gray-300'}`}
                 />
+                {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
               </div>
               <div>
                 <label className="block text-lg text-black" htmlFor="phone">
-                  Phone Number
+                  Phone Number <span className="text-red-500">*</span>
                 </label>
                 <input
-                  type="text"
+                  type="tel"
                   id="phone"
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  className="w-full p-3 border border-gray-300 rounded-md text-black"
-                  required
+                  placeholder="+1 (123) 456-7890"
+                  className={`w-full p-3 border rounded-md text-black ${errors.phone ? 'border-red-500' : 'border-gray-300'}`}
                 />
+                {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
               </div>
               <div>
                 <label className="block text-lg text-black" htmlFor="email">
-                  Email
+                  Email <span className="text-red-500">*</span>
                 </label>
                 <input
                   type="email"
@@ -157,13 +208,13 @@ const ContactPage = () => {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full p-3 border border-gray-300 rounded-md text-black"
-                  required
+                  className={`w-full p-3 border rounded-md text-black ${errors.email ? 'border-red-500' : 'border-gray-300'}`}
                 />
+                {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
               </div>
               <div>
                 <label className="block text-lg text-black" htmlFor="subject">
-                  Subject
+                  Subject <span className="text-red-500">*</span>
                 </label>
                 <input
                   type="text"
@@ -171,13 +222,14 @@ const ContactPage = () => {
                   name="subject"
                   value={formData.subject}
                   onChange={handleChange}
-                  className="w-full p-3 border border-gray-300 rounded-md text-black"
-                  readOnly={!!subject} // Make it read-only if prefilled
+                  className={`w-full p-3 border rounded-md text-black ${errors.subject ? 'border-red-500' : 'border-gray-300'}`}
+                  readOnly={!!subject}
                 />
+                {errors.subject && <p className="text-red-500 text-sm mt-1">{errors.subject}</p>}
               </div>
               <div>
                 <label className="block text-lg text-black" htmlFor="message">
-                  Message
+                  Message <span className="text-red-500">*</span>
                 </label>
                 <textarea
                   id="message"
@@ -185,9 +237,9 @@ const ContactPage = () => {
                   value={formData.message}
                   onChange={handleChange}
                   rows="5"
-                  className="w-full p-3 border border-gray-300 rounded-md text-black"
-                  required
+                  className={`w-full p-3 border rounded-md text-black ${errors.message ? 'border-red-500' : 'border-gray-300'}`}
                 ></textarea>
+                {errors.message && <p className="text-red-500 text-sm mt-1">{errors.message}</p>}
               </div>
               <button
                 type="submit"
