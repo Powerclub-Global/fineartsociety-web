@@ -38,7 +38,7 @@ Message: ${message}`;
 
   try {
     const response = await fetch(
-      `https://${spaceUrl}/api/laml/2010-04-01/Accounts/${projectId}/Messages.json`,
+      `https://${spaceUrl}/api/laml/2010-04-01/Accounts/${projectId}/Messages`,
       {
         method: "POST",
         headers: {
