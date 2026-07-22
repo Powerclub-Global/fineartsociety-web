@@ -1,4 +1,4 @@
-const { RestClient } = require("@signalwire/compatibility-api");
+import { RestClient } from "@signalwire/compatibility-api";
 
 export default async function handler(req, res) {
   if (req.method !== "POST") {
