@@ -1,6 +1,3 @@
-import { RestClient } from "@signalwire/compatibility-api";
-
-// Force Node.js runtime (not Edge)
 export const config = {
   runtime: "nodejs",
 };
@@ -10,7 +7,6 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  // Check for required env vars
   const requiredEnvVars = [
     "SIGNALWIRE_PROJECT_ID",
     "SIGNALWIRE_API_TOKEN",
@@ -29,34 +25,51 @@ export default async function handler(req, res) {
 
   const { name, email, phone, subject, message } = req.body;
 
-  try {
-    const client = RestClient(
-      process.env.SIGNALWIRE_PROJECT_ID,
-      process.env.SIGNALWIRE_API_TOKEN,
-      { signalwireSpaceUrl: process.env.SIGNALWIRE_SPACE_URL }
-    );
-
-    const smsBody = `New Contact Form Submission:
+  const smsBody = `New Contact Form Submission:
 Name: ${name}
 Email: ${email}
 Phone: ${phone}
 Subject: ${subject}
 Message: ${message}`;
 
-    const smsResponse = await client.messages.create({
-      from: process.env.SIGNALWIRE_FROM_NUMBER,
-      to: process.env.SIGNALWIRE_TO_NUMBER,
-      body: smsBody,
-    });
+  const projectId = process.env.SIGNALWIRE_PROJECT_ID;
+  const apiToken = process.env.SIGNALWIRE_API_TOKEN;
+  const spaceUrl = process.env.SIGNALWIRE_SPACE_URL;
 
-    console.log("SMS sent:", smsResponse.sid);
-    return res.status(200).json({ success: true, sid: smsResponse.sid });
+  try {
+    const response = await fetch(
+      `https://${spaceUrl}/api/laml/2010-04-01/Accounts/${projectId}/Messages.json`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/x-www-form-urlencoded",
+          "Authorization": "Basic " + Buffer.from(`${projectId}:${apiToken}`).toString("base64")
+        },
+        body: new URLSearchParams({
+          From: process.env.SIGNALWIRE_FROM_NUMBER,
+          To: process.env.SIGNALWIRE_TO_NUMBER,
+          Body: smsBody
+        })
+      }
+    );
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      console.error("SignalWire error:", data);
+      return res.status(500).json({
+        error: "Failed to send SMS",
+        details: data
+      });
+    }
+
+    console.log("SMS sent:", data.sid);
+    return res.status(200).json({ success: true, sid: data.sid });
   } catch (error) {
     console.error("Error sending SMS:", error);
     return res.status(500).json({
       error: "Failed to send SMS",
-      message: error.message,
-      code: error.code
+      message: error.message
     });
   }
 }
